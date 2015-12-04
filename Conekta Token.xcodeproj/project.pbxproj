@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		8BB92F9A1C120AE8007F1E0E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BB92F991C120AE8007F1E0E /* main.m */; };
 		8BB92F9D1C120AE8007F1E0E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BB92F9C1C120AE8007F1E0E /* AppDelegate.m */; };
-		8BB92FA01C120AE8007F1E0E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BB92F9F1C120AE8007F1E0E /* ViewController.m */; };
+		8BB92FA01C120AE8007F1E0E /* Start.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BB92F9F1C120AE8007F1E0E /* Start.m */; };
 		8BB92FA31C120AE8007F1E0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BB92FA11C120AE8007F1E0E /* Main.storyboard */; };
 		8BB92FA61C120AE9007F1E0E /* Conekta_Token.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8BB92FA41C120AE9007F1E0E /* Conekta_Token.xcdatamodeld */; };
 		8BB92FA81C120AE9007F1E0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BB92FA71C120AE9007F1E0E /* Assets.xcassets */; };
@@ -21,8 +21,8 @@
 		8BB92F991C120AE8007F1E0E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8BB92F9B1C120AE8007F1E0E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8BB92F9C1C120AE8007F1E0E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		8BB92F9E1C120AE8007F1E0E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		8BB92F9F1C120AE8007F1E0E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8BB92F9E1C120AE8007F1E0E /* Start.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Start.h; sourceTree = "<group>"; };
+		8BB92F9F1C120AE8007F1E0E /* Start.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Start.m; sourceTree = "<group>"; };
 		8BB92FA21C120AE8007F1E0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8BB92FA51C120AE9007F1E0E /* Conekta_Token.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Conekta_Token.xcdatamodel; sourceTree = "<group>"; };
 		8BB92FA71C120AE9007F1E0E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -60,10 +60,8 @@
 		8BB92F971C120AE8007F1E0E /* Conekta Token */ = {
 			isa = PBXGroup;
 			children = (
-				8BB92F9B1C120AE8007F1E0E /* AppDelegate.h */,
-				8BB92F9C1C120AE8007F1E0E /* AppDelegate.m */,
-				8BB92F9E1C120AE8007F1E0E /* ViewController.h */,
-				8BB92F9F1C120AE8007F1E0E /* ViewController.m */,
+				8BB92FB21C120B3F007F1E0E /* Main */,
+				8BB92FB31C120B48007F1E0E /* Controllers */,
 				8BB92FA11C120AE8007F1E0E /* Main.storyboard */,
 				8BB92FA71C120AE9007F1E0E /* Assets.xcassets */,
 				8BB92FA91C120AE9007F1E0E /* LaunchScreen.storyboard */,
@@ -80,6 +78,24 @@
 				8BB92F991C120AE8007F1E0E /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8BB92FB21C120B3F007F1E0E /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				8BB92F9B1C120AE8007F1E0E /* AppDelegate.h */,
+				8BB92F9C1C120AE8007F1E0E /* AppDelegate.m */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		8BB92FB31C120B48007F1E0E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8BB92F9E1C120AE8007F1E0E /* Start.h */,
+				8BB92F9F1C120AE8007F1E0E /* Start.m */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,7 +168,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8BB92FA01C120AE8007F1E0E /* ViewController.m in Sources */,
+				8BB92FA01C120AE8007F1E0E /* Start.m in Sources */,
 				8BB92F9D1C120AE8007F1E0E /* AppDelegate.m in Sources */,
 				8BB92F9A1C120AE8007F1E0E /* main.m in Sources */,
 				8BB92FA61C120AE9007F1E0E /* Conekta_Token.xcdatamodeld in Sources */,
